@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerialPortStream-net45", "code\SerialPortStream-net45.csproj", "{CEA01148-CD2E-4F29-B455-B557B9B4C6D4}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerialPortStreamTest-net45", "test\SerialPortStreamTest\SerialPortStreamTest-net45.csproj", "{A12A6274-BA1D-484C-B695-28B9A7EE6DAB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatastructuresTest-net45", "test\DatastructuresTest\DatastructuresTest-net45.csproj", "{0FC877B6-A140-4687-B67E-EF41BB2C8604}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestSerialPortStream", "test\TestSerialPortStream\TestSerialPortStream.csproj", "{576B6874-19DE-4CA4-B190-68E7C48F3B98}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,6 +38,12 @@ Global
 		{0FC877B6-A140-4687-B67E-EF41BB2C8604}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0FC877B6-A140-4687-B67E-EF41BB2C8604}.Signed_Release|Any CPU.ActiveCfg = Signed_Release|Any CPU
 		{0FC877B6-A140-4687-B67E-EF41BB2C8604}.Signed_Release|Any CPU.Build.0 = Signed_Release|Any CPU
+		{576B6874-19DE-4CA4-B190-68E7C48F3B98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{576B6874-19DE-4CA4-B190-68E7C48F3B98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{576B6874-19DE-4CA4-B190-68E7C48F3B98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{576B6874-19DE-4CA4-B190-68E7C48F3B98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{576B6874-19DE-4CA4-B190-68E7C48F3B98}.Signed_Release|Any CPU.ActiveCfg = Release|Any CPU
+		{576B6874-19DE-4CA4-B190-68E7C48F3B98}.Signed_Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,6 +51,10 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{A12A6274-BA1D-484C-B695-28B9A7EE6DAB} = {53715691-3598-4D90-A0F4-04A885012087}
 		{0FC877B6-A140-4687-B67E-EF41BB2C8604} = {53715691-3598-4D90-A0F4-04A885012087}
+		{576B6874-19DE-4CA4-B190-68E7C48F3B98} = {53715691-3598-4D90-A0F4-04A885012087}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3FDBFAF-E66E-4135-9479-45736C53A216}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		Policies = $0
