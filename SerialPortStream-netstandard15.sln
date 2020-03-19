@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.13
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerialPortStream-netstandard15", "code\SerialPortStream-netstandard15.csproj", "{104EE9DA-BCC0-4DB9-AA27-617544FCA2E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSerialPortStream", "TestSerialPortStream\TestSerialPortStream.csproj", "{A73DC016-BB9F-4A54-8BF6-CA69926FDE0D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +20,12 @@ Global
 		{104EE9DA-BCC0-4DB9-AA27-617544FCA2E2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{104EE9DA-BCC0-4DB9-AA27-617544FCA2E2}.Signed_Release|Any CPU.ActiveCfg = Signed_Release|Any CPU
 		{104EE9DA-BCC0-4DB9-AA27-617544FCA2E2}.Signed_Release|Any CPU.Build.0 = Signed_Release|Any CPU
+		{A73DC016-BB9F-4A54-8BF6-CA69926FDE0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A73DC016-BB9F-4A54-8BF6-CA69926FDE0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A73DC016-BB9F-4A54-8BF6-CA69926FDE0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A73DC016-BB9F-4A54-8BF6-CA69926FDE0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A73DC016-BB9F-4A54-8BF6-CA69926FDE0D}.Signed_Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A73DC016-BB9F-4A54-8BF6-CA69926FDE0D}.Signed_Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
