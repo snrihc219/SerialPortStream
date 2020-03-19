@@ -1,21 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.IO;
 using System.IO.Ports;
 using System.Threading;
 
 namespace TestSerialPortStream
 {
-    public class SerialPortTest
+    public class SerialAsyncPortTest
     {
         public static void Test()
         {
-            var sp = new SerialPort("COM1", 115200, Parity.None,8, StopBits.One);
+            var sp = new SerialPort("COM1", 115200, Parity.None, 8, StopBits.One);
             try
             {
                 sp.Open();
                 if (sp.IsOpen)
                 {
+                    Stream s = sp.BaseStream;
+                    var sw = new StreamWriter(s);
+
                     sp.DataReceived += OnDataReceived;
                     Console.WriteLine($"Connected to {sp} successfully.");
 
